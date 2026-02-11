@@ -1,11 +1,15 @@
 # Explano
+
 Convert an online lecture video (.mp4) into a pdf with the transcript per corresponding slide per page. The audio2text convertion is performed by the **tiny.en [faster-whisper] model**.
+
 ### Usage
-Python version `3.11.0` is used to develop this pipeline. Select an interpreter and install the required modules. Initially, paste an .mp4 file of an online video lecture which contains the slides somewhere in the video frame with a constant aspect ratio. Run the pipeline by `python main.py`. The following shows a repository example. Insert the video into the **input** folder.
+
+Python version `3.11.0` and Torch with `+cu128` is used to develop this pipeline. Select an interpreter and install the required modules. Initially, paste an .mp4 file of an online video lecture which contains the slides somewhere in the video frame with a constant aspect ratio. Run the pipeline by `python main.py`. The following shows a repository example. Insert the video into the **input** folder.
+
 ```
 Explano
 │   README.md
-│   main.py    
+│   main.py
 │   requirements.txt
 └───intput
 │   │   Data_Mining_lec1.mp4
@@ -15,7 +19,9 @@ Explano
 └───output
     │   (Data_Mining_lec1.pdf)
 ```
+
 ### Pipeline
+
 <ul>
   <li>Setup: initialize the necessary directories.</li>
   <li>Select Region of Interest: manually select the area where the slide is displayed.</li>
