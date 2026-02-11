@@ -4,7 +4,7 @@ Convert an online lecture video (.mp4) into a pdf with the transcript per corres
 
 ### Usage
 
-Python version `3.11.0` and Torch with `+cu128` is used to develop this pipeline on Windows. Select an interpreter and install the required modules. Initially, paste an .mp4 file of an online video lecture which contains the slides somewhere in the video frame with a constant aspect ratio. Run the pipeline by `python main.py`. The following shows a repository example. Insert the video into the **input** folder.
+Python version `3.11.0` and Torch with `+cu128` is used to develop this pipeline on Windows. Select an interpreter and install the required modules. Initially, paste an .mp4 file of an online video lecture which contains the slides somewhere in the video frame with a constant aspect ratio. Run the pipeline by `python main.py`. The following shows a repository example. Insert the video into the **input** folder and obtain the final pdf from the **output** folder.
 
 ```
 Explano
