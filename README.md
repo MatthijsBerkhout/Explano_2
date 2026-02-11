@@ -1,6 +1,6 @@
 # Explano
 
-Convert an online lecture video (.mp4) into a pdf with the transcript per corresponding slide per page. The audio2text convertion is performed by the **tiny.en [faster-whisper](https://pypi.org/project/faster-whisper/) model**.
+Convert an online lecture video (.mp4) into a pdf with the transcript per corresponding slide per page. The audio2text convertion is performed by the [tiny.en](https://github.com/openai/whisper) [faster-whisper](https://pypi.org/project/faster-whisper/) model.
 
 ### Usage
 
